@@ -28,7 +28,7 @@ h4
           {
                     text-align:left;
                     color: rgb(255, 255, 255);
-                    font-family: "Monospace" Courier New;
+                    font-family: "Monospace", Courier New;
           }
 
 .rounded-box                 
@@ -42,12 +42,12 @@ h4
           {
                     color:rgb(255, 255, 255);
                     font-size: 30px;
-                    font-family: "Monospace" Courier New;
+                    font-family: "Monospace", Courier New;
           }
 
 .footer-text
           {
-                    font-family: "Monospace" Courier New;        
+                    font-family: "Monospace", Courier New;        
           }                    
           
 
@@ -57,10 +57,11 @@ h4
                     text-decoration: none;
           }
 
-hr {
-   width: 500px;
-   border: 1px solid #ccc;
- }
+hr 
+          {
+                    width: 500px;
+                    border: 1px solid #ccc;
+          }
 
 nav 
           {
@@ -77,12 +78,13 @@ nav ul
 nav li 
           {
                     margin-right: 20px;
+                    font-family: "Monospace", Monaco;
            }
  
 nav a          
           {
-                    color: #fff; /* Make the links white */
-                    text-decoration: none; /* Remove the underline */
+                    color: #fff;
+                    text-decoration: none;
           }
  
 nav a:hover 
