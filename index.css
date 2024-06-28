@@ -7,28 +7,28 @@ h1
           {
                     text-align: center;
                     color: rgb(233, 150, 6);
-                    font-family: "Brush Script MT", cursive;
+                    font-family: "Monospace", Lucida Console;
           }
 
 h2 
           {
                     text-align:center;
                     color: rgb(233, 191, 6);
-                    font-family: "Garamond", serif;
+                    font-family: "Monospace", Monaco;
           }
 
 h3 
           {
                     text-align:center;
                     color: rgb(255, 255, 255);
-                    font-family:sans-serif;
+                    font-family: "Monospace", Monaco;
           }
 
 h4 
           {
                     text-align:left;
                     color: rgb(255, 255, 255);
-                    font-family:sans-serif;
+                    font-family: "Monospace" Courier New;
           }
 
 .rounded-box                 
@@ -42,7 +42,14 @@ h4
           {
                     color:rgb(255, 255, 255);
                     font-size: 30px;
+                    font-family: "Monospace" Courier New;
           }
+
+.footer-text
+          {
+                    font-family: "Monospace" Courier New;        
+          }                    
+          
 
 .link-format 
           {
