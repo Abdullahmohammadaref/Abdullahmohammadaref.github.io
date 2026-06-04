@@ -26,6 +26,7 @@ const skillCategories = [
             { name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
             { name: "Pandas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" },
             { name: "NumPy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" },
+            { name: "Scikit-Learn", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" },
         ]
     },
     {
@@ -46,6 +47,15 @@ const skillCategories = [
             { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" },
             { name: "Jupyter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" },
         ]
+    },
+    {
+        title: "Soft Skills",
+        skills: [
+            { name: "Adaptability", icon: "https://api.iconify.design/mdi:account-convert.svg?color=%23cbd5e1" },
+            { name: "Teamwork", icon: "https://api.iconify.design/mdi:account-group.svg?color=%23cbd5e1" },
+            { name: "Agility", icon: "https://api.iconify.design/mdi:run-fast.svg?color=%23cbd5e1" },
+            { name: "Problem-solving", icon: "https://api.iconify.design/mdi:puzzle-outline.svg?color=%23cbd5e1" },
+        ]
     }
 ];
 
@@ -61,7 +71,7 @@ export default function Skills() {
                     <div className={skillsGrid}>
                         {category.skills.map((skill) => (
                             <div key={skill.name} className={skillBadge}>
-                                <img src={skill.icon} alt={`${skill.name} logo`} className={skillIcon} />
+                                {skill.icon && <img src={skill.icon} alt={`${skill.name} logo`} className={skillIcon} />}
                                 <span>{skill.name}</span>
                             </div>
                         ))}

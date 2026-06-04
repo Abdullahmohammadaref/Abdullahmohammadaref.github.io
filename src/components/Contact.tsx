@@ -67,7 +67,7 @@ export default function Contact() {
             <SectionTitle title="Contact"></SectionTitle>
             <div className={contactContainer}>
                 <p className={hookSentence}>
-                    I am currently looking seeking internship and entry-level opportunities where I can utilize my skills and solve real-world problems. Reach out to me if your team is looking for data-driven problem solver.
+                    I am currently seeking internship and entry-level opportunities where I can utilize my skills and solve real-world problems. Reach out to me if your team is looking for data-driven problem solver.
                 </p>
                 
                 <div className={contactGrid}>
