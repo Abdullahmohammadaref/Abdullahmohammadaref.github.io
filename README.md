@@ -20,7 +20,7 @@ data science and software engineering.
 - Node.js v22.12.0
 
 ## How to run
-1. Open terminal in directory of choice and run `git clone https://github.com/Abdullahmohammadaref/Abdullahmohammadaref.github.io`
+1. Open terminal in the directory of choice and run `git clone https://github.com/Abdullahmohammadaref/Abdullahmohammadaref.github.io`
 2. Run `cd Abdullahmohammadaref.github.io`
 3. Run `npm install`
-4. Run `npm run dev` to run server In development environment or `npm run build` to build the website into static files.
+4. Run `npm run dev` to run the server in a development environment or `npm run build` to build the website into static files.
