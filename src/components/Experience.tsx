@@ -11,7 +11,7 @@ const experienceData = [
     //     ]
     // },
     {
-        title: "Freelance Software Engineer ",
+        title: "Freelance Software Engineer",
         location: "Berlin, Germany",
         date: "09/2025 – Till now",
         details: [

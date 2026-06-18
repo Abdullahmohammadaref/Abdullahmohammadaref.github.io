@@ -9,6 +9,7 @@ import Skills from './components/Skills.tsx'
 import Contact from './components/Contact.tsx'
 import Footer from './components/Footer.tsx'
 import Experience from './components/Experience.tsx'
+import Certificates from './components/Certificates.tsx'
 
 
 
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')!).render(
     {/*maybe show images for projects  */}
     <Projects/>
     <Experience/>
+    <Certificates/>
     {/*seperate soft from technical skills using card  */}
     {/* Maybe show icon for each skill not just name */}
     <Skills/>
