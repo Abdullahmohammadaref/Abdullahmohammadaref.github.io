@@ -9,10 +9,10 @@ export default function Education() {
             <SectionTitle title="Education"></SectionTitle>
             
             <div className={content}>
-                <p><b className={degree}>BSc Computer Science</b> | Gisma University of Applied Sciences—Berlin, Germany | 2023 - current</p>
+                <p><b className={degree}>BSc Computer Science</b> | Gisma University of Applied Sciences—Berlin, Germany | 2023 – 2027 (Expected)</p>
                 <br/>
                 <p>
-                    <b>Relevant Modules</b>: Artificial Intelligence & Machine Learning, Applied Statistical Modeling, Software Engineering, Data Structures & Algorithms, Operating Systems, Computer Networks, Cyber Security, App & Web Development, End-to-End Computer Science Project, Databases & Big Data, Advanced Programming, Python Programming, Computer Science Lab.
+                    <b>Relevant Modules</b>: Data Structures & Algorithms, Advanced Programming, Databases & Big Data, Operating Systems, Computer Networks, Software Engineering, Artificial Intelligence & Machine Learning, Applied Statistical Modeling, App & Web Development, Cyber Security, Statistics, Mathematical Foundations.
                 </p>
             </div>
         </section>

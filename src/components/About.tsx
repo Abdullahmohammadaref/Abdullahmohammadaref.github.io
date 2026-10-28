@@ -12,28 +12,28 @@ export default function About() {
                     I am fascinated by leveraging data insights and modern software to solve complex real-world problems.
                     <br/>
                     Currently pursuing my BSc in Computer Science degree at Gisma University of Applied Sciences.
-                    An agile learner who thrives at:
+                    An agile engineer who thrives at:
                 </p>
                 <ul className={list}>
                     <li className={listItem}>
                         <span className={listBullet}>*</span>
-                        <span>Swiftly adapting to working with modern technologies and keeping up with major industry shifts.</span>
+                        <span>Architecting full-stack web platforms and typed REST APIs with reactive UIs, secure auth flows, and automated testing.</span>
                     </li>
                     <li className={listItem}>
                         <span className={listBullet}>*</span>
-                        <span>Building scalable applications and REST APIs with TypeScript, SQL, MongoDB, Express.js, Vue.js, React, Node.js, Java, Object-Oriented Programming, Concurrency, Cybersecurity, Unit Testing, and AI Development tools.</span>
+                        <span>Building resilient backend services and concurrent systems with strict relational data integrity and clean OOP architecture.</span>
                     </li>
                     <li className={listItem}>
                         <span className={listBullet}>*</span>
-                        <span>Deploying with Docker and hosting on AWS cloud services.</span>
+                        <span>Designing end-to-end machine learning pipelines and statistical models that transform raw data into actionable predictive insights.</span>
                     </li>
                     <li className={listItem}>
                         <span className={listBullet}>*</span>
-                        <span>Utilizing Python, R, Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn, and machine learning algorithms to analyze raw data and build actionable end-to-end machine learning pipelines that provide valuable insights.</span>
+                        <span>Containerizing services with Docker Compose and managing automated CI/CD deployments on Oracle Cloud (OCI).</span>
                     </li>
                 </ul>
                 <p>
-                    I am actively exploring internship and entry-level opportunities to apply my data science, backend development, and cloud deployment skills in real working environments and learn new skills.
+                    Actively exploring internship and working student opportunities to apply my skills in Data Engineering, Full-Stack Development, or Applied AI in real production environments. Feel free to reach out if your team is looking for an adaptive problem solver!
                 </p>
             </div>
         </section>

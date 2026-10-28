@@ -8,7 +8,10 @@ export default function Hero() {
         <h1 className={h1} style={{fontSize: '2.5rem'}}>Abdullah Mohammad Aref</h1>
         <span className={cursor}></span>
       </div>
-      <p className={p}>Data Scientist & Software Engineer<br />BSc Computer Science student at Gisma University of Applied Sciences</p>
+      <p className={p}>
+        Software &amp; Machine Learning Engineer<br />
+        Data Science &middot; Intelligent Applications &middot; Cloud &amp; DevOps
+      </p>
     </section>
   )
 }

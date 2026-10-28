@@ -32,10 +32,11 @@ const skillCategories = [
     {
         title: "Databases",
         skills: [
-            // { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" },
+            { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" },
             { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" },
             { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
             { name: "SQLite", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" },
+            { name: "Supabase", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" },
         ]
     },
     {
@@ -43,24 +44,25 @@ const skillCategories = [
         skills: [
             { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" },
             { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" },
-            { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+            { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-line.svg" },
+            { name: "Oracle Cloud", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" },
+            { name: "Linux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" },
             { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" },
             { name: "Jupyter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" },
         ]
     },
     {
-        title: "Soft Skills",
+        title: "Core Methodologies",
         skills: [
-            { name: "Adaptability", icon: "https://api.iconify.design/mdi:account-convert.svg?color=%23cbd5e1" },
-            { name: "Teamwork", icon: "https://api.iconify.design/mdi:account-group.svg?color=%23cbd5e1" },
-            { name: "Agility", icon: "https://api.iconify.design/mdi:run-fast.svg?color=%23cbd5e1" },
-            { name: "Problem-solving", icon: "https://api.iconify.design/mdi:puzzle-outline.svg?color=%23cbd5e1" },
+            { name: "Agile & Jira", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" },
+            { name: "CI/CD & Actions", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" },
+            { name: "REST APIs & Postman", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" },
+            { name: "Automated Testing", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg" },
         ]
     }
 ];
 
 export default function Skills() {
-
     return (
         <section>
             <SectionTitle title="Skills"></SectionTitle>
@@ -78,7 +80,6 @@ export default function Skills() {
                     </div>
                 </div>
             ))}
-            
         </section>
-    )
+    );
 }

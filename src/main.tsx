@@ -18,15 +18,11 @@ createRoot(document.getElementById('root')!).render(
       {/*maybe show my face*/}
     <Hero/>
     <About/>
-      {/*maybe show gisma logo*/}
-    <Education/>
-    {/*maybe show images for projects  */}
-    <Projects/>
     <Experience/>
-    <Certificates/>
-    {/*seperate soft from technical skills using card  */}
-    {/* Maybe show icon for each skill not just name */}
+    <Projects/>
     <Skills/>
+    <Education/>
+    <Certificates/>
     <Contact/>
     <Footer/>
   </StrictMode>
