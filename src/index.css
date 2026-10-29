@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #FFFFFF;
+    color: #0F172A;
+    scroll-padding-top: 4.5rem;
+  }
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Crisp hairline divider utilities */
+.border-subtle {
+  border-color: #E2E8F0;
+}
+
+/* Clean solid section backgrounds */
+.blueprint-grid {
+  background-color: #FFFFFF;
+}
+.blueprint-grid-alt {
+  background-color: #F8F9FA;
+}
+
+/* Refined Non-Gimmicky Scroll Reveal */
+.reveal-item {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.42s cubic-bezier(0.16, 1, 0.3, 1), transform 0.42s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal-item.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+.stagger-1 { transition-delay: 50ms; }
+.stagger-2 { transition-delay: 100ms; }
+.stagger-3 { transition-delay: 150ms; }
+.stagger-4 { transition-delay: 200ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-item {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* Anti-AI Template Law: Razor-sharp technical corners throughout */
+*, *::before, *::after {
+  border-radius: 0 !important;
+}
+
+/* Allow explicit circular indicators / dots */
+.rounded-full {
+  border-radius: 9999px !important;
+}
